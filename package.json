@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "npm intall & npm link",
+    "build": "npm install & npm link",
     "start": "xcy"
   },
   "keywords": [],
