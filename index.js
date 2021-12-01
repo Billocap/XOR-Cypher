@@ -8,10 +8,10 @@ const resolve = file => path.resolve(cwd(), file);
 const encrypt = require('./commands/encrypt');
 const decrypt = require('./commands/decrypt');
 
-program.version("1.0.0", "-v, --version", "Display the current version.");
+program.version("1.0.0", "-v, --version", "Display current version.");
 program.name('xcy');
 program.helpOption('-h, --help', 'Display help for command.');
-program.addHelpCommand('help [command]', 'Display help for command');
+program.addHelpCommand('help [command]', 'Display help for command.');
 
 program
     .command('encrypt <file>')
