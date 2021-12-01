@@ -9,7 +9,7 @@ This program performs a [XOR Cipher](https://en.m.wikipedia.org/wiki/XOR_cipher)
 ## Intallation
 First clone the repo.
 ```
-git clone https://github.com/Billocap/XOR_Cypher.git
+git clone https://github.com/Billocap/XOR-Cypher.git
 ```
 Then build the program.
 ```
