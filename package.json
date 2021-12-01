@@ -1,0 +1,19 @@
+{
+  "name": "xor-cypher",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "xcy": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "xcy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
+}
