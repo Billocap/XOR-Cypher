@@ -24,6 +24,8 @@ xcy encrypt <file_path>
 ```
 Where `file_path` is the path to the file you want to encrypt, this path can be either relative or absolute.
 
+The first question will be, if you want to use a base key, this usefull when you want two files to follow the same key, just pass the path to the base key or cancel this operation by pressing enter.
+
 After that you will need to specify where the file containing the key will be saved, for example you could use `./key.txt`
 
 Then you will need to specify where the encrypted file will be saved, I used `./enc.txt` in this example.
